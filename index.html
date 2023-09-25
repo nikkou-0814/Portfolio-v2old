@@ -8,16 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>nikkou-portfolio</title>
 </head>
-<body style="background-color: #DFF7FF;margin: 0px;">
+<body id="cursor" style="background-color: #DFF7FF;margin: 0px;">
     <!--heder-->
     <div style="height: 70px; background-color: rgb(255, 255, 255, 0.7); width: 100%; position: fixed; border-radius: 0 0 30px 30px; display: flex; align-items: center; backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(2px); z-index: 10;">
         <a href="index.html"><img src="images/icon.png" style="height: 25px; margin-left: 25px; margin-right: 15px;"></a>
         <div style="background-color: #000;height: 40px; width: 1px;"></div>
-        <a href="index.html" style="text-decoration: none;"><p style="font-size: 20px;padding: 10px;color: #000; font-weight: 500; font-family: 'Lato', sans-serif;">Home</p></a>
-        <a href="#" style="text-decoration: none;"><p style="font-size: 20px;padding: 10px;color: #000; font-weight: 500; font-family: 'Lato', sans-serif;">Works</p></a>
-        <a href="#" style="text-decoration: none;"><p style="font-size: 20px;padding: 10px;color: #000; font-weight: 500; font-family: 'Lato', sans-serif;">Tasks</p></a>
+        <div class="heder_home"><a href="index.html" style="text-decoration: none;"><p style="font-size: 20px;padding: 10px;color: #000; font-weight: 500; font-family: 'Lato', sans-serif;">Home</p></a></div>
+        <div class="heder_works"><a href="#" style="text-decoration: none;"><p style="font-size: 20px;padding: 10px;color: #000; font-weight: 500; font-family: 'Lato', sans-serif;">Works</p></a></div>
+        <div class="heder_tasks"><a href="#" style="text-decoration: none;"><p style="font-size: 20px;padding: 10px;color: #000; font-weight: 500; font-family: 'Lato', sans-serif;">Tasks</p></a></div>
     </div>
     <!--end heder-->
 
@@ -168,20 +169,10 @@
     <div style="background-color: rgb(255, 255, 255, 0.7); height: 80px; border-radius: 30px 30px 0 0; backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(2px);">
         <p style="font-size: 12px; padding: 13px; font-family: 'Lato', sans-serif;">Nikkou | Portfolio-v2<br>Tools | Figma, VSCode, Vercel, GitHub<br>Made with Tokuzou</p>
         <p style="font-size: 12px; font-family: 'Lato', sans-serif; text-align: center; margin-top: -36px;"><a href="https://github.com/nikkou-0814/Portfolio-v2" target="_blank" rel="noopener noreferrer">GitHubRepository</a></p>
-        <div style="background-color: rgb(255, 255, 255, 0.7); box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25); height: 40px; width: 40px; position: fixed; right:20px; margin-top: -64px; border-radius: 10px;"><a href="#"><img src="images/up.png" style="height: 25px; margin-left: 8px; margin-top: 5px;"></a></div>
+        <div class="up" style="background-color: rgb(255, 255, 255, 0.7); box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25); height: 40px; width: 40px; position: fixed; right:20px; margin-top: -64px; border-radius: 10px;"><a href="#"><img src="images/up.png" style="height: 25px; margin-left: 8px; margin-top: 5px;"></a></div>
     </div>
     <img src="images/icon.png" style="height: 25px; margin: 0 auto; display: flex; justify-content: center; margin-top: -70px;">
     <!--end footer-->
-
-    <style>
-        .body{
-        cursor : url(/images/cur.png),default;
-        }
-    </style>
-    <script>
-        function close_modal(){
-            document.getElementById("hello_modal").style.display="none";
-        }
-    </script>
+    <script src="script.js" async></script>
 </body>
 </html>
