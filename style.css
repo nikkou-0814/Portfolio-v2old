@@ -45,3 +45,58 @@
 .heder_tasks a:hover {
     opacity: 0.7;
     }
+
+.heder{
+    animation-name:hederani;
+    animation-duration:0.5s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+    @keyframes hederani{
+      from {
+        opacity: 0;
+        transform: translateY(-100px);
+      }
+    
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+.hellomessage{
+    animation-name:hellomessageani;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+        
+    @keyframes hellomessageani{
+      from {
+        opacity: 0;
+      }
+    
+    to {
+        opacity: 1;
+      }
+    }
+
+.upani{
+    animation-name:upani;
+    animation-duration:0.5s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+    @keyframes upani{
+      from {
+        opacity: 0;
+        transform: translateY(100px);
+      }
+    
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
