@@ -171,6 +171,13 @@
   }
 }
 
+@media (max-width: 816px) {
+  .task2 {
+    width: 330px;
+    height: 60px;
+  }
+}
+
 .task1{
   margin: auto;
   max-width: 700px;
@@ -197,6 +204,12 @@
   }
 }
 
+@media (max-width: 816px) {
+  .nambar2 {
+    margin-left: 4px;
+  }
+}
+
 .progBar2{
   width:500px;
   height:10px;
@@ -208,7 +221,7 @@
   overflow: hidden;
 }
       @media screen and (max-width: 816px) {
-          .progBar1{
+          .progBar2{
               width:260px;
               margin: auto;
               margin-top: -30px;
