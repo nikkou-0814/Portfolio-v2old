@@ -120,14 +120,14 @@
     }
 }
 
-@media (max-width: 814px) {
+@media (max-width: 816px) {
   .history  {
     width: 380px;
     height: 1000px;
   }
 }
 
-@media (max-width: 814px) {
+@media (max-width: 816px) {
   .historys {
     width: 300px;
   }
@@ -136,4 +136,49 @@
 .historys{
   max-width: 500px;
   height: auto;
+}
+
+
+p{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.progBar1{
+  width:400px;
+  height:10px;
+  margin-left: 200px;
+  margin-top: 10px;
+  background-color:#9E9E9E;
+  position:relative;
+  border-radius:10px;
+  overflow: hidden;
+}
+      @media screen and (max-width: 816px) {
+          .progBar1{
+              width:260px;
+              margin-left: 10px;
+          }
+      }
+.progBar1 .bar.on{
+  height:100%;
+  background-color:#1875FF;
+  position:absolute;
+  animation: progress 1.5s normal;
+  animation-fill-mode: forwards;
+}
+@keyframes progress {
+  0% {width: 0}
+  100% {width: 76%}
+}
+
+
+@media (max-width: 816px) {
+  .task1 {
+    width: 300px;
+    height: 60px;
+  }
+}
+
+.task1{
+  max-width: 700px;
 }
