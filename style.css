@@ -161,12 +161,8 @@
   position:absolute;
   animation: progress 1.5s normal;
   animation-fill-mode: forwards;
+  width: 76%
 }
-@keyframes progress {
-  0% {width: 0}
-  100% {width: 76%}
-}
-
 
 @media (max-width: 816px) {
   .task1 {
@@ -180,8 +176,18 @@
   max-width: 700px;
 }
 
+.task2{
+  margin: auto;
+  max-width: 700px;
+}
+
 .nambar1{
   margin-top: -16px;
+  margin-left: 60px;
+}
+
+.nambar2{
+  margin-top: -17px;
   margin-left: 60px;
 }
 
@@ -191,3 +197,28 @@
   }
 }
 
+.progBar2{
+  width:500px;
+  height:10px;
+  margin: auto;
+  margin-top: -30px;
+  background-color:#9E9E9E;
+  position:relative;
+  border-radius:10px;
+  overflow: hidden;
+}
+      @media screen and (max-width: 816px) {
+          .progBar1{
+              width:260px;
+              margin: auto;
+              margin-top: -30px;
+          }
+      }
+.progBar2 .bar.on{
+  height:100%;
+  background-color:#1875FF;
+  position:absolute;
+  animation: progress 1.5s normal;
+  animation-fill-mode: forwards;
+  width: 92%;
+}
