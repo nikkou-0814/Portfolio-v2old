@@ -145,10 +145,10 @@
 
 .progBar1{
   width:500px;
-  height:10px;
+  height:8px;
   margin: auto;
   margin-top: -30px;
-  background-color:#9E9E9E;
+  background-color:#3E3C4E;
   position:relative;
   border-radius:10px;
   overflow: hidden;
@@ -217,10 +217,10 @@
 
 .progBar2{
   width:500px;
-  height:10px;
+  height:8px;
   margin: auto;
   margin-top: -30px;
-  background-color:#9E9E9E;
+  background-color:#3E3C4E;
   position:relative;
   border-radius:10px;
   overflow: hidden;
