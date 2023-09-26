@@ -102,6 +102,17 @@
     }
 
 .history{
+  height: 950px;
+}
+
+@media (max-width: 816px) {
+  .history  {
+    width: 380px;
+    height: 1020px;
+  }
+}
+
+.history{
   animation-name:upani;
   animation-duration:0.5s;
   animation-fill-mode:forwards;
@@ -120,12 +131,6 @@
     }
 }
 
-@media (max-width: 816px) {
-  .history  {
-    width: 380px;
-    height: 1000px;
-  }
-}
 
 @media (max-width: 816px) {
   .historys {
