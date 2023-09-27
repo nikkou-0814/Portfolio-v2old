@@ -157,7 +157,7 @@
           .progBar1{
               width:260px;
               margin-top: -30px;
-              margin-left: 50px;
+              margin-left: 70px;
           }
       }
 .progBar1 .bar.on{
@@ -171,22 +171,22 @@
 
 @media (max-width: 816px) {
   .task1 {
-    width: 330px;
+    width: 370px;
     height: 60px;
   }
 }
 
 @media (max-width: 816px) {
   .task2 {
-    width: 330px;
+    width: 370px;
     height: 60px;
   }
 }
 
 @media (max-width: 816px) {
   .task3 {
-    width: 330px;
-    height: 400px;
+    width: 370px;
+    height: 360px;
   }
 }
 
@@ -206,12 +206,12 @@
 }
 
 .nambar1{
-  margin-top: -16px;
+  margin-top: -15px;
   margin-left: 60px;
 }
 
 .nambar2{
-  margin-top: -17px;
+  margin-top: -15px;
   margin-left: 60px;
 }
 
@@ -222,19 +222,19 @@
 
 @media (max-width: 816px) {
   .nambar1 {
-    margin-left: 10px;
+    margin-left: 25px;
   }
 }
 
 @media (max-width: 816px) {
   .nambar2 {
-    margin-left: 10px;
+    margin-left: 25px;
   }
 }
 
 @media (max-width: 816px) {
   .nambar3 {
-    margin-left: 10px;
+    margin-left: 35px;
   }
 }
 
@@ -252,7 +252,7 @@
           .progBar2{
               width:260px;
               margin-top: -30px;
-              margin-left: 50px;
+              margin-left: 70px;
           }
       }
 .progBar2 .bar.on{
@@ -278,7 +278,7 @@
           .progBar3{
               width:260px;
               margin-top: -30px;
-              margin-left: 50px;
+              margin-left: 70px;
           }
       }
 .progBar3 .bar.on{
