@@ -287,5 +287,5 @@
   position:absolute;
   animation: progress 1.5s normal;
   animation-fill-mode: forwards;
-  width: 1%;
+  width: 2%;
 }
