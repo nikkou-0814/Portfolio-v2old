@@ -105,7 +105,7 @@
   height: 950px;
 }
 
-@media (max-width: 816px) {
+@media (max-width: 839px) {
   .history  {
     width: 380px;
     height: 1020px;
@@ -132,7 +132,7 @@
 }
 
 
-@media (max-width: 816px) {
+@media (max-width: 839px) {
   .historys {
     width: 300px;
   }
