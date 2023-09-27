@@ -156,7 +156,7 @@
       @media screen and (max-width: 816px) {
           .progBar1{
               width:260px;
-              margin-top: -30px;
+              margin-top: -20px;
               margin-left: 70px;
           }
       }
@@ -251,7 +251,7 @@
       @media screen and (max-width: 816px) {
           .progBar2{
               width:260px;
-              margin-top: -30px;
+              margin-top: -20px;
               margin-left: 70px;
           }
       }
