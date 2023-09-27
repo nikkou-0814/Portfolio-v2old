@@ -156,8 +156,8 @@
       @media screen and (max-width: 816px) {
           .progBar1{
               width:260px;
-              margin: auto;
               margin-top: -30px;
+              margin-left: 50px;
           }
       }
 .progBar1 .bar.on{
@@ -166,7 +166,7 @@
   position:absolute;
   animation: progress 1.5s normal;
   animation-fill-mode: forwards;
-  width: 76%
+  width: 86%
 }
 
 @media (max-width: 816px) {
@@ -183,12 +183,24 @@
   }
 }
 
+@media (max-width: 816px) {
+  .task3 {
+    width: 330px;
+    height: 60px;
+  }
+}
+
 .task1{
   margin: auto;
   max-width: 700px;
 }
 
 .task2{
+  margin: auto;
+  max-width: 700px;
+}
+
+.task3{
   margin: auto;
   max-width: 700px;
 }
@@ -203,15 +215,26 @@
   margin-left: 60px;
 }
 
+.nambar3{
+  margin-top: -15px;
+  margin-left: 60px;
+}
+
 @media (max-width: 816px) {
   .nambar1 {
-    margin-left: 4px;
+    margin-left: 10px;
   }
 }
 
 @media (max-width: 816px) {
   .nambar2 {
-    margin-left: 4px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 816px) {
+  .nambar3 {
+    margin-left: 10px;
   }
 }
 
@@ -228,8 +251,8 @@
       @media screen and (max-width: 816px) {
           .progBar2{
               width:260px;
-              margin: auto;
               margin-top: -30px;
+              margin-left: 50px;
           }
       }
 .progBar2 .bar.on{
@@ -238,5 +261,31 @@
   position:absolute;
   animation: progress 1.5s normal;
   animation-fill-mode: forwards;
-  width: 92%;
+  width: 98%;
+}
+
+.progBar3{
+  width:500px;
+  height:8px;
+  margin: auto;
+  margin-top: -30px;
+  background-color:#3E3C4E;
+  position:relative;
+  border-radius:10px;
+  overflow: hidden;
+}
+      @media screen and (max-width: 816px) {
+          .progBar3{
+              width:260px;
+              margin-top: -30px;
+              margin-left: 50px;
+          }
+      }
+.progBar3 .bar.on{
+  height:100%;
+  background-color:#1875FF;
+  position:absolute;
+  animation: progress 1.5s normal;
+  animation-fill-mode: forwards;
+  width: 1%;
 }
