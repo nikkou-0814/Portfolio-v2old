@@ -70,6 +70,25 @@
       }
     }
 
+.learn{
+    animation-name:learn;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+    @keyframes learn{
+      from {
+        opacity: 0;
+        transform: translateY(100px);
+      }
+    
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
 #cursor {
     cursor: url(images/cur.png), auto;
     }
@@ -129,6 +148,12 @@
   }
 }
 
+@media (max-width: 839px) {
+  .learn  {
+    width: 380px;
+  }
+}
+
 .history{
   animation-name:upani;
   animation-duration:1s;
@@ -183,9 +208,13 @@
   position:absolute;
   animation: progress 1.5s normal;
   animation-fill-mode: forwards;
-  width: 86%
+  width: 96%
 }
 
+.task1{
+  margin: auto;
+  max-width: 700px;
+}
 @media (max-width: 816px) {
   .task1 {
     width: 370px;
@@ -193,6 +222,10 @@
   }
 }
 
+.task2{
+  margin: auto;
+  max-width: 700px;
+}
 @media (max-width: 816px) {
   .task2 {
     width: 370px;
@@ -200,6 +233,10 @@
   }
 }
 
+.task3{
+  margin: auto;
+  max-width: 700px;
+}
 @media (max-width: 816px) {
   .task3 {
     width: 370px;
@@ -207,51 +244,59 @@
   }
 }
 
-.task1{
+.task4{
   margin: auto;
   max-width: 700px;
 }
-
-.task2{
-  margin: auto;
-  max-width: 700px;
-}
-
-.task3{
-  margin: auto;
-  max-width: 700px;
-}
-
-.nambar1{
-  margin-top: -15px;
-  margin-left: 60px;
-}
-
-.nambar2{
-  margin-top: -15px;
-  margin-left: 60px;
-}
-
-.nambar3{
-  margin-top: -15px;
-  margin-left: 60px;
-}
-
 @media (max-width: 816px) {
-  .nambar1 {
-    margin-left: 25px;
+  .task4 {
+    width: 370px;
+    height: 170px;
   }
 }
 
+.task5{
+  margin: auto;
+  max-width: 700px;
+}
 @media (max-width: 816px) {
-  .nambar2 {
-    margin-left: 25px;
+  .task5 {
+    width: 370px;
+    height: 120px;
   }
 }
 
+.task6{
+  margin: auto;
+  max-width: 700px;
+}
 @media (max-width: 816px) {
-  .nambar3 {
-    margin-left: 35px;
+  .task6 {
+    width: 370px;
+    height: 120px;
+  }
+}
+
+.task7{
+  margin: auto;
+  max-width: 700px;
+}
+@media (max-width: 816px) {
+  .task7 {
+    width: 370px;
+    height: 120px;
+  }
+}
+
+.nambar{
+  margin-top: -15px;
+  margin-left: 55px;
+}
+
+
+@media (max-width: 816px) {
+  .nambar {
+    margin-left: 26px;
   }
 }
 
@@ -278,7 +323,7 @@
   position:absolute;
   animation: progress 1.5s normal;
   animation-fill-mode: forwards;
-  width: 98%;
+  width: 100%;
 }
 
 .progBar3{
@@ -305,4 +350,125 @@
   animation: progress 1.5s normal;
   animation-fill-mode: forwards;
   width: 2%;
+}
+
+.viewprogress{
+  background-color: #3E3C4E;
+  width: 110px;
+  height: 25px; 
+  margin-left: 675px; 
+  margin-top: -15px; 
+  border-radius: 15px; 
+  color: #6BFFD3; 
+  box-shadow: 0 0 10px 0 #90bde2;
+}
+
+@media (max-width: 839px) {
+  .viewprogress {
+    margin-left: 255px;
+  }
+}
+
+.progBar4{
+  width:500px;
+  height:8px;
+  margin: auto;
+  margin-top: -10px;
+  background-color:#3E3C4E;
+  position:relative;
+  border-radius:10px;
+  overflow: hidden;
+}
+      @media screen and (max-width: 816px) {
+          .progBar4{
+              width:260px;
+              margin-top: -10px;
+              margin-left: 70px;
+          }
+      }
+.progBar4 .bar.on{
+  height:100%;
+  background-color:#1875FF;
+  position:absolute;
+  animation: progress 1.5s normal;
+  animation-fill-mode: forwards;
+  width: 1%;
+}
+
+.progBar5{
+  width:500px;
+  height:8px;
+  margin: auto;
+  margin-top: -10px;
+  background-color:#3E3C4E;
+  position:relative;
+  border-radius:10px;
+  overflow: hidden;
+}
+      @media screen and (max-width: 816px) {
+          .progBar5{
+              width:260px;
+              margin-top: -10px;
+              margin-left: 70px;
+          }
+      }
+.progBar5 .bar.on{
+  height:100%;
+  background-color:#1875FF;
+  position:absolute;
+  animation: progress 1.5s normal;
+  animation-fill-mode: forwards;
+  width: 0%;
+}
+
+.progBar6{
+  width:500px;
+  height:8px;
+  margin: auto;
+  margin-top: -10px;
+  background-color:#3E3C4E;
+  position:relative;
+  border-radius:10px;
+  overflow: hidden;
+}
+      @media screen and (max-width: 816px) {
+          .progBar6{
+              width:260px;
+              margin-top: -10px;
+              margin-left: 70px;
+          }
+      }
+.progBar6 .bar.on{
+  height:100%;
+  background-color:#1875FF;
+  position:absolute;
+  animation: progress 1.5s normal;
+  animation-fill-mode: forwards;
+  width: 10%;
+}
+
+.progBar7{
+  width:500px;
+  height:8px;
+  margin: auto;
+  margin-top: -10px;
+  background-color:#3E3C4E;
+  position:relative;
+  border-radius:10px;
+  overflow: hidden;
+}
+      @media screen and (max-width: 816px) {
+          .progBar7{
+              width:260px;
+              margin-top: -10px;
+              margin-left: 70px;
+          }
+      }
+.progBar7 .bar.on{
+  height:100%;
+  background-color:#1875FF;
+  position:absolute;
+  animation: progress 1.5s normal;
+  animation-fill-mode: forwards;
+  width: 0%;
 }
