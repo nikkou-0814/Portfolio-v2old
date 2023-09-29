@@ -354,9 +354,9 @@
 
 .viewprogress{
   background-color: #3E3C4E;
-  width: 110px;
+  width: 120px;
   height: 25px; 
-  margin-left: 675px; 
+  margin-left: 665px; 
   margin-top: -15px; 
   border-radius: 15px; 
   color: #6BFFD3; 
@@ -365,7 +365,7 @@
 
 @media (max-width: 839px) {
   .viewprogress {
-    margin-left: 255px;
+    margin-left: 247px;
   }
 }
 
