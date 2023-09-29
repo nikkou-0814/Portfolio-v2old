@@ -288,6 +288,28 @@
   }
 }
 
+.task8{
+  margin: auto;
+  max-width: 700px;
+}
+@media (max-width: 816px) {
+  .task8 {
+    width: 370px;
+    height: 120px;
+  }
+}
+
+.task9{
+  margin: auto;
+  max-width: 700px;
+}
+@media (max-width: 816px) {
+  .task9 {
+    width: 370px;
+    height: 120px;
+  }
+}
+
 .nambar{
   margin-top: -15px;
   margin-left: 55px;
@@ -471,4 +493,56 @@
   animation: progress 1.5s normal;
   animation-fill-mode: forwards;
   width: 0%;
+}
+
+.progBar8{
+  width:500px;
+  height:8px;
+  margin: auto;
+  margin-top: -10px;
+  background-color:#3E3C4E;
+  position:relative;
+  border-radius:10px;
+  overflow: hidden;
+}
+      @media screen and (max-width: 816px) {
+          .progBar8{
+              width:260px;
+              margin-top: -10px;
+              margin-left: 70px;
+          }
+      }
+.progBar8 .bar.on{
+  height:100%;
+  background-color:#1875FF;
+  position:absolute;
+  animation: progress 1.5s normal;
+  animation-fill-mode: forwards;
+  width: 82%;
+}
+
+.progBar9{
+  width:500px;
+  height:8px;
+  margin: auto;
+  margin-top: -10px;
+  background-color:#3E3C4E;
+  position:relative;
+  border-radius:10px;
+  overflow: hidden;
+}
+      @media screen and (max-width: 816px) {
+          .progBar9{
+              width:260px;
+              margin-top: -10px;
+              margin-left: 70px;
+          }
+      }
+.progBar9 .bar.on{
+  height:100%;
+  background-color:#1875FF;
+  position:absolute;
+  animation: progress 1.5s normal;
+  animation-fill-mode: forwards;
+  width: 82%;
 }
