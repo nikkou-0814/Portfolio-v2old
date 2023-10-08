@@ -70,25 +70,6 @@
       }
     }
 
-.learn{
-    animation-name:learn;
-    animation-duration:1s;
-    animation-fill-mode:forwards;
-    opacity:0;
-    }
-    
-    @keyframes learn{
-      from {
-        opacity: 0;
-        transform: translateY(100px);
-      }
-    
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
 #cursor {
     cursor: url(images/cur.png), auto;
     }
@@ -145,12 +126,6 @@
   .history  {
     width: 380px;
     height: 1020px;
-  }
-}
-
-@media (max-width: 839px) {
-  .learn  {
-    width: 380px;
   }
 }
 
@@ -356,17 +331,11 @@
   background-color: #3E3C4E;
   width: 110px;
   height: 25px; 
-  margin-left: 675px; 
-  margin-top: -15px; 
+  margin-left: 255px;
+  margin-top: 1px; 
   border-radius: 15px; 
   color: #6BFFD3; 
   box-shadow: 0 0 10px 0 #90bde2;
-}
-
-@media (max-width: 839px) {
-  .viewprogress {
-    margin-left: 255px;
-  }
 }
 
 .progBar4{
