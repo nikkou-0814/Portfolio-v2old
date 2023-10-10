@@ -119,24 +119,24 @@
     }
 
 .history{
-  height: 950px;
+  height: 980px;
 }
 
 @media (max-width: 839px) {
   .history  {
     width: 380px;
-    height: 1020px;
+    height: 1040px;
   }
 }
 
 .history{
-  animation-name:upani;
+  animation-name:historyani;
   animation-duration:1s;
   animation-fill-mode:forwards;
   opacity:0;
   }
   
-  @keyframes upani{
+  @keyframes historyani{
     from {
       opacity: 0;
       transform: translateY(100px);
