@@ -119,13 +119,13 @@
     }
 
 .history{
-  height: 980px;
+  height: 1080px;
 }
 
 @media (max-width: 839px) {
   .history  {
     width: 380px;
-    height: 1040px;
+    height: 1120px;
   }
 }
 
